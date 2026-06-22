@@ -1,0 +1,41 @@
+{
+  "players": [
+    { "id": "me", "name": "老档玩家", "emoji": "🫵", "title": "新人玩家", "isMe": true, "password": "pw", "balance": 880000, "frozen": 120000, "wins": 3, "losses": 2, "streak": -1, "maxStreak": 4, "bestWinOdds": 2.5, "reputation": 100, "createdAt": 1765000000000 },
+    { "id": "n1", "name": "老王", "emoji": "🧔", "title": "原油预言家", "isMe": false, "password": "", "balance": 700000, "frozen": 0, "wins": 8, "losses": 5, "streak": 1, "maxStreak": 6, "reputation": 88, "createdAt": 1765000000000 },
+    { "id": "n2", "name": "老李", "emoji": "👴", "title": "稳健派", "isMe": false, "password": "", "balance": 500000, "frozen": 0, "wins": 4, "losses": 9, "streak": -2, "maxStreak": 3, "reputation": 95, "createdAt": 1765000000000 }
+  ],
+  "currentId": "me",
+  "ledger": [
+    { "id": "l1", "playerId": "me", "type": "grant", "amount": 1000000, "balanceAfter": 1000000, "ref": "signup", "at": 1765000000000 },
+    { "id": "l2", "playerId": "me", "type": "freeze", "amount": -120000, "balanceAfter": 880000, "ref": "m1", "at": 1765100000000 }
+  ],
+  "balance": 880000,
+  "frozen": 120000,
+  "matches": [
+    { "id": "m1", "mode": "match", "title": "周末球局谁赢", "optionA": "我赢", "optionB": "他赢", "status": "open", "result": null, "comments": [], "createdAt": 1765100000000, "deadline": null, "ownerSide": "A", "odds": 2, "ownerStake": 120000, "takerStake": 0, "takerSide": null, "takerName": null, "takerEmoji": null, "takerJoined": false }
+  ],
+  "inbox": [],
+  "pmBets": [
+    { "id": "b1", "eventId": 10001, "marketId": null, "eventTitle": "测试盘", "marketQuestion": "q", "outcome": "Yes", "zhOutcome": "会", "prob": 0.5, "odds": 2, "stake": 10000, "at": 1765100000000, "status": "pending", "result": null, "payout": 0, "settledAt": null }
+  ],
+  "pmCache": {
+    "byId": {
+      "10001": { "id": "10001", "enTitle": "Old cached", "zhTitle": "老缓存盘", "zhOutcomes": ["会", "不会"], "category": "加密", "kind": "simple", "prob": 0.5, "volume": 1000, "createdAt": 1765000000000, "compliant": true, "description": "", "icon": "", "market": { "question": "q", "zhQuestion": "zq", "outcomes": "[\"Yes\",\"No\"]", "outcomePrices": "[\"0.5\",\"0.5\"]" } }
+    },
+    "fetchedAt": 1765100000000,
+    "pinnedIds": ["10001"]
+  },
+  "pmComments": {},
+  "watchlist": { "matches": ["m1"], "pm": [10001] },
+  "rivals": { "老王": { "wins": 2, "losses": 1, "history": [{ "type": "predict", "matchId": "x", "title": "旧局", "iWon": true, "at": 1765000000000 }] } },
+  "feed": [{ "id": "f1", "type": "open", "actorName": "老档玩家", "actorEmoji": "🫵", "text": "开了一盘", "ref": "m1", "at": 1765100000000 }],
+  "lastSeenAt": 1765100000000,
+  "offlineMatches": [],
+  "lastSupplyAt": null,
+  "seasonStartAt": 1765000000000,
+  "seasonArchives": [],
+  "agreedTerms": true,
+  "onboarded": true,
+  "appeals": [],
+  "reportedCheats": []
+}

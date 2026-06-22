@@ -1,0 +1,7 @@
+.DS_Store
+*.zip
+node_modules/
+.env.local
+.env
+dist/
+.claude/scheduled_tasks.lock
